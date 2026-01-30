@@ -1,8 +1,8 @@
 
-step 'test1', {
+step 'test', {
   command = {% cb_include_as_groovy '../test.cmd' %}
   subprocedure = ''
   subproject = ''
-  timeLimit = '0'
+  timeLimit = '120'
   timeLimitUnits = 'seconds'
 }
