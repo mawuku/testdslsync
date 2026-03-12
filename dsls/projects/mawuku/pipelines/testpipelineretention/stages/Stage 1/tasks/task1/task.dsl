@@ -1,5 +1,5 @@
 
 task 'task1', {
-  subprocedure = 'mktestretention'
+  subprocedure = 'mktestretention '
   taskType = 'PROCEDURE'
 }

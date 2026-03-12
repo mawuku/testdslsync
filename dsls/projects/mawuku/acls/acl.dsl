@@ -1,5 +1,6 @@
-inheriting = '1'
+
 acl {
+  inheriting = '1'
 
   aclEntry 'user', principalName: 'project: mawuku', {
     changePermissionsPrivilege = 'allow'
